@@ -74,21 +74,21 @@ Typical output:
 ### Lab 2
 Folder: `Lab/lab2_300434818`
 
-This lab includes combinatorics and a door-lock simulation/probability exercise. It introduces logic-based problem solving and constrained decision-making.
+This lab builds two small classes. `Combination` stores three numbers and can be compared with another combination. `DoorLock` opens only with the right combination and deactivates itself after three failed attempts.
 
 Typical output:
-- Combinations or valid configurations
-- Door-lock outcomes or access states
+- Whether the door opens for a given combination
+- Lock deactivated after three wrong attempts, then reactivated with the right combination
 
 ### Lab 3
 Folder: `Lab/lab3_300434818`
 
-This lab introduces rational numbers and helper utilities for fraction arithmetic. It focuses on math operations with numerators and denominators.
+This lab implements a `Rational` class for fractions: reduction to lowest terms with the greatest common divisor, addition, equality and comparison. A separate `Utils` class has a find-and-replace method for arrays of strings.
 
 Typical output:
 - Rational arithmetic results
 - Simplified fractions
-- Utility-generated numeric outputs
+- String arrays after find-and-replace
 
 ### Lab 4
 Folder: `Lab/lab4_300434818`
@@ -152,22 +152,22 @@ Typical output:
 ### Lab 10
 Folder: `Lab/lab10_300434818 (2)/lab10_300434818`
 
-This lab covers ordered structures and ordered lists, introducing sorted container behavior and ordered data management.
+This lab implements `OrderedList`, a doubly linked list that keeps `Comparable` values in sorted order, with add, get, remove and size, plus a merge of two ordered lists.
 
 Typical output:
-- Inserted values in sorted order
-- Ordered list operations
-- Structure traversal results
+- Values inserted in sorted order
+- Elements read and removed by position
+- Two ordered lists merged into one
 
 ### Lab 11
 Folder: `Lab/lab11_300434818`
 
-This lab introduces bit lists and iterative processes, with iterator support and bit-level operations.
+This lab implements `BitList`, a linked list of bits built from a string of 0s and 1s, with its own iterator. It then uses that iterator to compute the complement, AND, OR and XOR of bit lists.
 
 Typical output:
-- Bit values and set/clear operations
-- Iterator traversal through data
-- Iterative algorithm results
+- Bit lists printed as strings
+- Bits visited one by one with the iterator
+- Complement, AND, OR and XOR of bit lists
 
 ---
 
